@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    height: 100%; /* watch this one */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: #f5eacf;
+    position: relative; /* watch this one */
+}
+
+#site-main {
+    overflow: auto;
+    padding-bottom: 60px;
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#body-container {
+    min-height: 100%;
+}
+
+header {
+    background: #721727;
+    /* border-bottom: 5px;
+    border-bottom-color: #000; */
+    
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    width:120px;
+    height:120px;
+    float: left;
+    padding: 10px 0;
+    position:relative;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 60px;
+    
+}
+
+nav a {
+    color: #ceb793;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: blue; /* was #000 */
+}
+
+
+H1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 50;
+    color: #721727;
+}
+
+.body-text {
+    width: 80%;
+    height: 70%;
+    top: 25;
+    left: 170px; /* was 130 */
+    position: absolute;
+    
+}
+
+.app-text {
+    width: 50%;
+    float: left;
+}
+
+.app-text h3 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    color: #4f583d;
+
+}
+
+.app-text p {
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #4f583d;
+    
+}
+
+.site-picture {
+    width: 50%;
+    float: right;
+}
+
+.site-picture .img-1{
+    width: 50%;
+    float: right;  
+    margin-top: 50px; 
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.site-picture .img-2{
+    width: 50%;
+    float: right;  
+    margin-top: 20px; 
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color: #4f583d;
+    position: relative;
+    height: 80px;
+    margin-top: 50%; /* adjust this for position on page */
+    
+    clear: both;
+}
+.copyright {
+    position: relative; /* keeps text and color together */
+    color: #f5eacf;
+    /* color: purple; */
+    padding-top: 10px;
+    margin-left: 130px;
+    margin-top: 100px;    /* was 100px */
+}
+
+.top-banner {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+
+}
+
+.banner-image {
+    /* height: 100px; */
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+
+}
+
